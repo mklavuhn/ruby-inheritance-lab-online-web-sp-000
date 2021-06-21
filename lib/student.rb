@@ -1,5 +1,6 @@
 class Student < User
   
+  @knowledge = []
   
   def learn(new_knowledge)
     
